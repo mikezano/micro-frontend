@@ -1,0 +1,9 @@
+[submodule "hello-react"]
+	path = hello-react
+	url = https://github.com/mikezano/hello-react.git
+[submodule "hello-vue"]
+	path = hello-vue
+	url = https://github.com/mikezano/hello-vue.git
+[submodule "hello-container"]
+	path = hello-container
+	url = https://github.com/mikezano/hello-container.git
