@@ -1,0 +1,23 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "many front ends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikezano/micro-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikezano/micro-frontend/issues"
+  },
+  "homepage": "https://github.com/mikezano/micro-frontend#readme",
+  "dependencies": {
+    "open-iconic": "^1.1.1"
+  },
+  "workspaces": ["./hello-react/*", "./hello-vue/*"]
+}
